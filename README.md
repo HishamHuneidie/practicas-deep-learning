@@ -1,0 +1,1 @@
+Repo full of practices about deep learning
