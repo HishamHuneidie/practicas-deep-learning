@@ -1,0 +1,107 @@
+Inteligencia artificial: capacidad de las máquinas para realizar tareas inteligentes.
+Machine learning: Autoaprendizage de las máquinas a base de algoritmos y datos.
+Deep learning: técnica de machine learning basada en redes neuronales que toma en cuenta, además de los datos de entrada, la interrelación entre los mismos.
+
+
+
+Tipos: ---
+Variable de salida = categoría
+Aplicaciones "clasificación"
+usado para:
+    detectar enfermedades
+    clasificar imágenes
+    reconocer voz
+    clasificación de especies
+---
+Variable de salida = numérico
+Aplicaciones "regresión"
+usado para:
+    previsión de cotización en bolsa
+    previsiones de consumo eléctrico
+    previsión de oferta y demanda de producto
+    previsión de vivienda, coches, articulos, etc.
+
+
+
+Para crear una app
+(se seguirá el siguiente proceso)
+- Conectar a fuente de datos
+- Transformar datos
+- Conjuntos
+    - test
+    - entrenamiento
+- Entrenar modelo
+- Testear modelo
+- Puesta en produccion
+
+
+overfitting: exceso de iteraciones en el modelo
+underfitting: pocas iteraciones, modelo pobre o simple
+
+¿como saber cuando nos encontramos con uno u otro?
+- Ver rendimiento:
+    - entrenamiento: va mejorando
+    - test: bien
+    - ahora para notar cual es cual: (test)
+        - underfitting: no me entero de mas errores porque corto el proceso a medias
+        - overfitting: va mejorando y repentinamente los errores que llegan son muy elevados
+- 
+
+
+Nomenclatura:
+- X: variables de entrada (la imagen)
+- Y: variables de salida u objetivo (clasificación asociada: perro, gato)
+
+
+Ejemplos:
+- x_test: imagen de perro
+- y_test: categoria_perro
+- y_prediccion: deberia ser y_test para que sea correctaS
+
+
+
+Aprendizage no supervisado:
+- Es cuando no hay variable de salida
+
+Proceso:
+- Conectar fuente de datos
+- Limpieza y transformación
+- Entrenamiento (el modelo busca patrones por si solo)
+- Test (ver si tiene sentido) -> si false -> ajustar parámetros
+
+--------- Redes neuronales ---------
+
+Que es una neurona:
+- Celula que comparte info a otras celulas
+
+--------- Funciones de activación ---------
+F(z)
+
+
+
+
+--------- Primeros pasos ---------
+
+Instalar librerías:
+- Pandas
+- NumPy
+- Seabor
+- Matplotlib
+- TensorFlow
+Importar fuentes de datos:
+- Excels, CSVs o DDBB
+Análisis de datos:
+- Limpiar valores nulos
+Visualización:
+- Para ver si la limpieza fue efectiva
+División train/test
+- Separar data para 80% entrenamiento y 20% test
+Escalado
+- Ver si las variables tienen distintas magnitudes
+Crear modelo:
+- Cuantas capas
+- Cuantas neuronales
+- Cuantas funciones de activación
+Entrenar el modelo:
+- Ver las perdidas del modelo
+- Ver si hay overfitting
