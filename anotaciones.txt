@@ -105,3 +105,42 @@ Crear modelo:
 Entrenar el modelo:
 - Ver las perdidas del modelo
 - Ver si hay overfitting
+
+
+
+
+
+--------- CNN Red neuronal convolucional ---------
+Importar librerías:
+- Pandas
+- NumPy
+- Seabor
+- Matplotlib
+- TensorFlow
+Importar fuentes de datos:
+Análisis de datos:
+- Visualización
+- transformación categórica
+- Rendimiento
+- Escalado
+Creación de modelo:
+- Filtros
+- Tamaño del kernel/pool
+- Número de capas
+Entrenar modelo:
+- Perdidas del modelo
+- Exactitud
+- Overfitting
+Evaluación y predicción:
+- Gráficar resultados para analizar
+
+
+
+
+
+
+
+
+
+
+
