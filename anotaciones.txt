@@ -149,3 +149,5 @@ Para mejorar predicción
 
 Redes neuronales recurrentes
 - Son para trabajar con secuencias de datos
+
+Aprendizaje no supervisado -> que no está etiquetado
