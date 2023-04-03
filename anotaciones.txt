@@ -137,10 +137,15 @@ Evaluación y predicción:
 
 
 
+Para mejorar predicción
+- Mas epochs
+- Más capas
+- Filtros convolucionales
 
 
 
 
 
 
-
+Redes neuronales recurrentes
+- Son para trabajar con secuencias de datos
